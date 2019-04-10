@@ -1,4 +1,142 @@
+body {
+    font-family: sans-serif;    
+    padding: 0;
+    margin: 0;
+}
+
+.main-content{ 
+    margin-top: 100px;
+}
+#header { 
+    height: 60px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    background-color: #e6e6e6;
+}
+#nav-bar ul {
+    position: absolute;
+    right: 10%;
+    top: 0px;    
+    
+} 
+
+#nav-bar ul li{ 
+    display: inline-block;
+    margin-left: 80px;
+}
+#nav-bar ul li a{
+    text-decoration: none;
+    color: #000;    
+}
+
 #header-img {
 	width: 300px;
 	height:40px;
 }
+
+#capture {
+    text-align: center;
+    
+}
+
+#email { 
+    margin-bottom: 13px;
+    
+}
+
+#submit {
+    background-color: yellow;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#features { 
+}
+
+#features ul{ 
+    
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30%;
+}
+
+#features ul li {
+    list-style: none;
+    margin-left: 2%;
+    
+}
+
+#features ul li p {
+    position: relative;
+    bottom: 15px;
+    width: 800px;
+    
+}
+
+.fas { 
+    margin-top: 25px;
+    font-size: 30px;
+    color: orange;
+    
+}
+
+#how-it-works { 
+    text-align: center;
+    margin: 80px 0px;
+}
+
+#pricing { 
+    text-align: center;    
+    transform: translateX(10px);
+}
+.products { 
+    display: inline-block;
+    margin-left: 10px;
+    padding: 0px 10px 20px 10px;
+    width: 250px;
+    border: 2px solid black;
+}
+
+.name-product { 
+    background-color: #e6e6e6;
+    text-transform: uppercase;
+    line-height: 80px;
+}
+
+footer { 
+    height: 100px;
+    width: 50%;
+    background-color: #e6e6e6;
+    margin: auto;
+    padding: 10px;
+    margin-top: 30px;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+footer ul { 
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+footer ul li { 
+    
+    display: inline-block;    
+    margin-left: 20px;
+}
+
+footer ul li a { 
+    text-decoration: none;
+    color: black;
+}
+
+footer p { 
+    color: #585858;
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    }
